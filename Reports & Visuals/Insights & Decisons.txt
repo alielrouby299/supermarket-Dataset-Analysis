@@ -1,0 +1,162 @@
+Part 1: KPIs & Overview
+
+
+1. Total Sales ($2.26M)
+
+Insight: Total sales stand at a strong $2.26M, showing a very healthy overall business volume.
+
+Decision: Use this milestone to negotiate better volume discounts with suppliers to improve profit margins.
+
+----------------------------------------------
+
+2. Total Orders (4,922)
+
+Insight: The store successfully processed nearly 5,000 orders (4,922), indicating stable operational activity.
+
+Decision: Ask customers for their reviews after buying to make sure they are happy with the service.
+
+----------------------------------------------
+
+
+3. Total Products (9,800)
+
+Insight: A massive product catalog sold (9,800 units), which means the supermarket has a highly diversified inventory.
+
+Decision: Check the stock regularly to find items that do not sell and make discounts to get rid of them.
+
+--------------------------------------------------------------------------------------------
+
+Part 2: Charts Analysis
+
+
+Chart 1: Total Sales by Sub-Category (Funnel Chart)
+
+Insight: Phones ($328K) and Chairs ($323K) dominate sub-category revenue, representing nearly 30% of the funnel, while Copiers are at the bottom ($146K).
+
+Decision: Put Phones and Chairs at the top of the website, and make offers on Copiers to sell them faster.
+
+---------------------------------------------------
+
+Chart 2: Total Sales by Segment (Pie Chart)
+
+Insight: The "Consumer" segment drives over half of the business volume (50.76% / $1.15M), while "Home Office" is the lowest at 18.79%.
+
+Decision: Spend more money on ads targeting regular people, and make special corporate deals for businesses.
+
+----------------------------------------------------
+
+Chart 3: Total Products Sold by Category (Horizontal Bar Chart)
+
+Insight: Office Supplies vastly outperforming both Technology and Furniture in terms of units sold, reaching around 1,000 products.
+
+Decision: Ensure continuous and high stock availability for Office Supplies, as it acts as the primary hook that brings customers to the store.
+
+-----------------------------------------------------
+
+Chart 4: Total Customers by State (Vertical Bar Chart)
+
+Insight: California has the highest unique customer concentration (around 600), followed by New York, with Illinois being the lowest on the chart.
+
+Decision: Run hyper-local Facebook/Google ads targeting California and New York to acquire more users where brand awareness is already high.
+
+--------------------------------------------------------
+
+Chart 5: Total Products Sold by Delivery_Type (Donut Chart)
+
+Insight: "Normal Delivery" holds the lead in unit distribution (41.73%), closely followed by "Delayed Delivery" at 39.56%.
+
+Decision: Find out why 39% of products arrive late and fix the shipping problem immediately.
+
+----------------------------------------------------------
+
+Chart 6: Total Sales by Category (Area Chart)
+
+Insight: Technology generates the highest revenue (exceeding $800K), while Office Supplies generates the lowest total sales revenue.
+
+Decision: Focus on selling tech items and their accessories because they bring the most cash.
+
+-----------------------------------------------------------
+
+Chart 7: Total Sales by Year (Line Chart)
+
+Insight: Sales dipped from 2015 to 2016, but witnessed an exponential and continuous upward surge from 2016 to 2018 ($0.7M+).
+
+Decision: See what good things we did in 2016 and keep doing them to stay growing.
+
+-----------------------------------------------------------
+
+Chart 8: Total Customers by Segment (Vertical Bar Chart)
+
+Insight: Consumer segment has the largest customer count (around 400+), while Home Office has the fewest customers (around 150).
+
+Decision: Give these customers reward points or discounts when they invite their friends to buy from us.
+
+------------------------------------------------------------
+
+Chart 9: Total Sales by City (Vertical Bar Chart)
+
+Insight: New York City is the clear #1 revenue-generating city (exceeding $0.25M), with Los Angeles taking the 2nd spot.
+
+Decision: Establish a dedicated local fulfillment hub or localized marketing campaign specifically for NYC and LA to minimize delivery times and capture maximum demand.
+
+------------------------------------------------------------
+
+Chart 10: Total Customers by Category (Horizontal Bar Chart)
+
+Insight: Office Supplies attracts the highest number of customers (nearly 800), closely followed by Furniture and Technology.
+
+Decision: Sell office supplies at a cheap price to attract people, then show them our expensive tech products.
+
+------------------------------------------------------------
+
+Chart 11: Total Sales by Delivery_Type (Pie Chart)
+
+Insight: Normal Delivery makes up 52.22% ($1.18M) of sales, but Delayed Delivery captures a dangerous 39.45% ($0.89M) of total value.
+
+Decision: Give a discount coupon to any customer whose order arrives late so they don't get angry.
+
+-------------------------------------------------------------
+
+Chart 12: Sales per Customer by Year (Line Chart)
+
+Insight: Sales per customer stayed completely flat at around $800 from 2015 to 2016, then surged massively to over $1,000 by 2018.
+
+Decision: Make a VIP program for customers who spend a lot to encourage them to buy more.
+
+-----------------------------------------------------------
+
+Chart 13: Total Sales by State (Ribbon/Stream Chart)
+
+Insight: California leads sales comfortably ($0.45M+), followed by New York, while Texas, Washington, and Pennsylvania stay at lower, steady ranks.
+
+Decision: Put 60% of our marketing budget into California and New York because they bring the most profit.
+
+--------------------------------------------------------------
+
+Chart 14: Total Sales by Season (Area Chart)
+
+Insight: Autumn is the absolute peak season with a massive surge (over $0.8M), while Spring, Winter, and Summer remain heavily dropped and flat (around $0.45M).
+
+Decision: Prepare extra stock before Autumn, and make "Summer Sales" to increase revenue during quiet months.
+
+
+----------------------------------------------------------------------
+
+Summary
+
+Fix Shipping Delays: Find out why around 40% of orders arrive late and solve this issue with delivery companies immediately to keep customers happy.
+
+Focus on Top States: Put 60% of the marketing and ads budget into California and New York because they have the highest number of customers and sales.
+
+Prepare for Autumn: Increase stock and prepare operations before Autumn because it is the peak season that brings double the sales of any other season.
+
+Push Tech Products: Focus on selling Technology items (like Phones) and their accessories because they bring the highest revenue and cash flow.
+
+Smart Product Bundling: Use cheap Office Supplies to attract new buyers, then offer them high-value products or make a VIP program to increase their spending.
+
+------------------------------------------------------------------------------
+Conclusion
+
+In conclusion, the supermarket is showing strong growth, especially in the Tech category and the Autumn season. However, to maintain this success, the business must fix the shipping delays immediately and focus its marketing efforts on top locations like California and New York. By doing this, the store can improve customer satisfaction and increase its profits even more.
+
+

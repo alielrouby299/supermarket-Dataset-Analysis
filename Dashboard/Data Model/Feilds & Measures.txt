@@ -1,0 +1,149 @@
+                            📊 Superstore Dataset Analysis - Data Model Documentation
+
+📌 Overview
+
+This document presents the calculated columns and measures developed to support data analysis and dashboard creation for the Superstore Dataset Analysis project. These transformations improve data quality, enable deeper insights, and enhance reporting capabilities for sales trends, shipping efficiency, and customer behavior.
+
+
+
+🧩 Calculated Columns (Data Enrichment Layer)
+
+Calculated columns are computed row-by-row and are used for slicing, dicing, and filtering the data in visuals.
+
+--------------------------------------------------------------------------------
+📅 Time & Seasonality Dimensions
+
+1- Order Year
+
+Order Year = YEAR(supermarket[Order Date])
+--------------------------------------------------------------------------------
+
+2- Order Month
+
+Order Month = FORMAT(supermarket[Order Date], "MMMM")
+Order Month No (Useful for sorting the text-based Month column chronologically)
+Order Month No = MONTH(supermarket[Order Date])
+---------------------------------------------------------------------------------
+
+3- Season
+
+Season = 
+SWITCH(
+    MONTH(supermarket[Order Date]),
+    12, "Winter", 1, "Winter", 2, "Winter",
+    3, "Spring", 4, "Spring", 5, "Spring",
+    6, "Summer", 7, "Summer", 8, "Summer",
+    "Autumn"
+)
+
+---------------------------------------------------------------------------
+📦 Logistics & Segmentation Dimensions
+
+
+4- Shipping Delay Days
+
+Shipping Delay Days = DATEDIFF(supermarket[Order Date], supermarket[Ship Date], DAY)
+
+--------------------------------------------------------------------------
+5- Sales Size
+
+Sales Size = 
+IF(
+    supermarket[Sales] >= 1000, "High Value",
+    IF(supermarket[Sales] >= 200, "Medium Value", "Low Value")
+)
+----------------------------------------------------------------------------
+
+6- Delivery_Type
+
+Delivery_Type = 
+IF(
+    supermarket[Shipping Delay Days] <= 1, "Fast Delivery",
+    IF(supermarket[Shipping Delay Days] <= 4, "Normal Delivery", "Delayed")
+)
+
+-----------------------------------------------------------------------------
+
+📐 Measures (Analytical & KPI Layer)
+
+Measures are dynamic calculations evaluated on the fly based on the user's filter context in the report.
+
+
+📑 Volume Metrics (Counts & Totals)
+
+
+
+1- Total Sales
+
+Total Sales = SUM(supermarket[Sales])
+
+---------------------------------------------------------------
+
+2- Total Orders
+
+Total Orders = DISTINCTCOUNT(supermarket[Order ID])
+
+---------------------------------------------------------------
+
+3- Total Products Sold (Unique products cataloged)
+
+Total Products Sold = DISTINCTCOUNT(supermarket[Product ID])
+
+----------------------------------------------------------------------------------
+
+4- Total Customers
+
+Total Customers = DISTINCTCOUNT(supermarket[Customer ID])
+
+----------------------------------------------------------------------------------
+
+5- Total Categories
+
+Total Categories = DISTINCTCOUNT(supermarket[Category])
+
+---------------------------------------------------------------------------------
+
+📈 Averages & Business Performance KPIs
+
+
+6- Sales per Customer
+
+Sales per Customer = 
+DIVIDE(
+    [Total Sales], 
+    [Total Customers]
+) 
+
+------------------------------------------------------------------------
+
+7- Average Sales per Order
+
+Average Sales per Order = AVERAGE(supermarket[Sales])
+
+------------------------------------------------------------------------
+
+8- Avg Products per Order
+
+Avg Products per Order = 
+DIVIDE(
+    COUNT(supermarket[Product ID]), 
+    [Total Orders]
+)
+
+-------------------------------------------------------------------------
+
+🎯 Conclusion
+
+Data Model Summary & Business Value
+
+The enhancements made to the Superstore Data Model provide a robust foundation for advanced business intelligence. By transforming raw transactional data into structured calculated columns and dynamic measures, the model bridges the gap between raw data and actionable insights.
+
+Key Capabilities Enabled by this Model:
+
+Time & Seasonality Intelligence: The time-based columns allow stakeholders to track sales patterns across years, months, and distinct seasons to identify peak demand periods.
+
+Operational & Shipping Tracking: The Shipping Delay Days and Delivery_Type metrics directly expose logistical bottlenecks, enabling the business to monitor supply chain efficiency and SLA compliance.
+
+Customer & Sales Segmentation: Through Sales Size grouping and critical performance KPIs like Sales per Customer, marketing and sales teams can easily isolate high-value cohorts and tailor target campaigns.
+
+In summary, this documentation reflects a comprehensive, highly optimized analytical layer designed to drive strategic decision-making, optimize revenue channels, and streamline operational efficiency.
